@@ -1,0 +1,209 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+\usepackage[margin=1.4cm]{geometry}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.15in}
+ \addtolength{\textwidth}{0.3in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{0pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}\vspace{0pt}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Large \scshape Christian Fauci} \\[2mm]
+    {\normalsize \itshape Electronic Engineer } \\[2mm]
+    {\footnotesize 
+    \raisebox{-0.1\height}{\faPhone} \ \underline{(+39) 327-797-1962} \ ~
+    \raisebox{-0.1\height}{\faEnvelope} \ \underline{\href{mailto:christian.fauci2001@gmail.com}{\texttt{christian.fauci2001@gmail.com}}} \ ~
+    \raisebox{-0.1\height}{\faLinkedin} \ \underline{\href{https://www.linkedin.com/in/michael-scott/}{www.linkedin.com/in/christian-fauci}} \ ~
+    \raisebox{-0.1\height}{\faGithub} \ \underline{\href{https://github.com/C13v2?tab=repositories}{github.com/C13v2}}
+    }
+\end{center}
+
+
+  %-----------ABOUT ME-----------
+\section{About Me}
+\resumeSubHeadingListStart
+  \item{
+    {I’m an \textbf{Electronic Engineer} who loves solving problems and building high-impact products, from hardware to web applications. Strong focus on embedded systems and modern software stacks. Currently deepening my skills in \textbf{machine learning} and AI tools to bridge electronics and intelligent systems.}
+  }
+\resumeSubHeadingListEnd
+\vspace{-12pt}
+
+
+%-----------EDUCATION-----------
+\section{Education} \\[1mm]
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {University of Palermo}{Expected Graduation: February 2026}
+    {Bachelor of Electronic Engineering | Telecommunications}{}
+\resumeSubHeadingListEnd
+
+\resumeItemListStart
+  \resumeItem {Courses: 
+    \href{https://github.com/C13v2/Embedded-Projects}{Embedded System}, 
+    Internet of Things, 
+    Computer Architecture, 
+    Automatic Control, 
+    \href{https://github.com/C13v2/CiscoPacketTracer}{Applied Telecommunications}, 
+    Digital Signal Processing, 
+    Electronic Calculators, 
+    Modern Electronics, 
+    AutoCAD
+  }
+  \resumeItem {ERASMUS+ | \textbf{Univerzita Pardubice}, Czech Republic | 
+    Focus on \textbf{Digital Signal Processing and Signals}, Automatic Control, Matlab and Simulink
+  }
+\resumeItemListEnd
+\vspace{-12pt}
+
+
+%-----------SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    {\item{   
+     \textbf{Languages}{: \href{https://github.com/C13v2/C-Projects}{C++}, \href{https://github.com/C13v2/Python-Projects}{Python}, \href{https://github.com/C13v2/html-css-javascript}{HTML}, CSS, JavaScript, \href{https://github.com/C13v2/typescript}{Typescript}
+     } \\[1mm]
+     \textbf{Libraries/Frameworks}{: ReactJS, PostgreSQL, NextJS, NodeJS} \\ [1mm]
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+ \vspace{3pt}
+\vspace{10pt}
+
+\vspace{-12pt}
+
+
+%-----------PROJECTS-----------
+\section{Projects} 
+\vspace{-5pt}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+    {\textbf{Fitness Tracker} $|$ \href{https://github.com/C13v2/Fitness-Tracker-ML}{Source Code}}{Python $|$ Pandas $|$ Scikit-learn} 
+    \\[5mm]
+\resumeItemListStart
+    \resumeItem{Developed a complete Human Activity Recognition (\textbf{HAR}) pipeline to classify complex gym exercises from raw IMU accelerometer and gyroscope \textbf{signals}, enabling accurate recognition of movement patterns.}
+    \resumeItem{Engineered advanced \textbf{signal-processing} and \textbf{ML workflows} using \textbf{FFT} frequency extraction, temporal window abstraction, PCA dimensionality reduction, custom feature-engineering, and multiple classifiers including \textbf{Random Forests, Neural Networks, KNN, and Naive Bayes.}}
+    \resumeItem{Supports real-world applications such as automated rep counting, form monitoring, workout analysis, rehabilitation tracking, and integration into wearable fitness technologies and smart-coaching systems.}
+\resumeItemListEnd
+\vspace{-20pt}
+
+\resumeProjectHeading
+    {\textbf{Find a Player} $|$ \href{https://github.com/C13v2/Find-a-Player}{Source Code}}{TypeScript $|$ React $|$ Tailwind CSS}
+    \\[5mm]
+\resumeItemListStart
+    \resumeItem{Developed a modern \textbf{web application} that allows users to quickly create and join local sports matches for football, basketball, volleyball, padel, tennis, and more.}
+    \resumeItem{Built the frontend using \textbf{React}, \textbf{TypeScript}, \textbf{Tailwind CSS}, implementing features such as match creation, filtering, dashboards, and in-app chat}
+    \resumeItem{Enabled seamless coordination between players through automated participant management, push notifications (\textbf{Firebase Cloud Messaging}), and calendar integration, simplifying local sports organization}
+\resumeItemListEnd
+\vspace{-17pt}
+
+\resumeProjectHeading
+    {\textbf{Booking App} $|$ \href{https://github.com/C13v2/html-css-javascript/tree/main/Booking\%20App\%20MERN}{Source Code}}%
+    {React $|$ Node.js $|$ Express $|$ MongoDB}
+\\[5mm]
+\resumeItemListStart
+    \resumeItem{Engineered a \textbf{full-stack Booking App} allowing users to register, manage properties, upload images, and handle bookings through an intuitive interface}
+    \resumeItem{Implemented the platform with the \textbf{MERN stack (MongoDB, Express, React, Node.js)}, integrating \textbf{JWT authentication}, \textbf{AWS S3 image storage}, and responsive UI with \textbf{Tailwind CSS}.}
+    \resumeItem{Optimized user workflows with a comprehensive dashboard for property and booking management, secure image uploads, and real-time booking operations, enhancing overall user experience}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-28pt}
+
+\medskip
+ %-----------Spoken Languages-----------
+\section{Spoken Languages}
+\begin{tabular}{@{\hskip 1cm} l @{\hskip 2cm}l }
+Italian (Native) & English (C1) \\
+French (B1)      & German (A2) \\
+\end{tabular}
+
+\end{document}
+
