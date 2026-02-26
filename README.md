@@ -2,8 +2,7 @@
 Hi there 👋
 
 ## 🚀 About Me
-💻 I’m an electronic engineer who loves building web apps and solving problems.
-🌱 Currently learning machine learning and AI tools.
+💻 Hi, I’m an electronic engineer passionate about embedded systems and electronics design. I enjoy solving problems and exploring new technologies.
 
 ## 🛠️ Skills
 ⚡ JavaScript | Python | C++ | TypeScript
