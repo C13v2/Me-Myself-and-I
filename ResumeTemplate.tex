@@ -110,18 +110,18 @@
 \section{About Me}
 \resumeSubHeadingListStart
   \item{
-    {I’m an \textbf{Electronic Engineer} who loves solving problems and building high-impact products, with a strong interest in \textbf{embedded systems} and \textbf{hardware–software integration}. Experienced in \textbf{signal processing}, low-level programming, and system modelling through academic projects and laboratory work. Motivated to contribute to real-world engineering challenges involving electronic design, firmware development, and reliable system performance.
-  }
+    {I'm an \textbf{Embedded-oriented Electronic Engineer} with a strong focus on \textbf{firmware development, real-time systems, and hardware–software integration}. Experienced in \textbf{low-level programming and digital signal processing} through hands-on projects involving \textbf{control systems and sensor data}. Interested in developing reliable and efficient embedded solutions in industrial, automotive, and semiconductor environments.
+  }}
 \resumeSubHeadingListEnd
 \vspace{-12pt}
 
 
 %-----------EDUCATION-----------
-\section{Education} \\[1mm]
+\section{Education} 
 \resumeSubHeadingListStart
   \resumeSubheading
-    {University of Palermo}{Expected Graduation: March 2026}
-    {Bachelor of Electronic Engineering | Telecommunications}{}
+    {University of Palermo}{}
+    {Bachelor of Electronic Engineering | Telecommunications}{ Expected Graduation: September 2026}
 \resumeSubHeadingListEnd
 
 \resumeItemListStart
@@ -165,13 +165,23 @@
 \resumeSubHeadingListStart
 
 \resumeProjectHeading
-    {\textbf{Motorized Door} $|$ \href{https://github.com/C13v2/Embedded-Projects/tree/main/Motorized\%20Door}{Source Code}}%
+    {\textbf{Automated Door Control System} $|$ \href{https://github.com/C13v2/Embedded-Projects/tree/main/Motorized\%20Door}{Source Code}}%
     {C++ $|$ Embedded $|$ FSS}
 \\[5mm]
 \resumeItemListStart
     \resumeItem{Designed and implemented a \textbf{real-time embedded control} application using a finite state machine \textbf{(FSM)} architecture to manage door motion phases with deterministic timing constraints.}
     \resumeItem{Developed event-driven input handling with sequence validation, timeout monitoring, and safety logic, including \textbf{asynchronous STOP} interrupt handling and forced transition to safe system state.}
     \resumeItem{Implemented software \textbf{PWM} generation and multi-timer scheduling to simulate motor control behavior, demonstrating concepts of real-time control, concurrency management, and embedded system timing design.}
+\resumeItemListEnd
+\vspace{-17pt}
+
+\resumeProjectHeading
+    {\textbf{AVR-based Embedded Password \& Alarm System} $|$ \href{https://github.com/C13v2/Embedded-Projects/blob/main/Password\%20and\%20Alarm.c}{Source Code}}{C++ $|$ Embedded $|$ FSM}
+    \\[5mm]
+\resumeItemListStart
+    \resumeItem{Designed and implemented an \textbf{embedded access control system} on AVR microcontroller using a \textbf{finite state machine (FSM)} architecture to manage password input, system activation, reset, and alarm states.}
+    \resumeItem{Developed \textbf{interrupt-driven input handling} using pin change interrupts (PCINT) for responsive button detection, combined with \textbf{timer-based scheduling} (CTC mode) to manage system timing and state transitions.}
+    \resumeItem{Implemented a \textbf{security and alarm mechanism} with password validation, error detection, and fail-safe behavior, including buzzer activation, LED signaling, and controlled reset logic for safe system recovery.}
 \resumeItemListEnd
 \vspace{-17pt}
 
@@ -185,23 +195,14 @@
 \resumeItemListEnd
 \vspace{-17pt}
 
-\resumeProjectHeading
-    {\textbf{Find a Player} $|$ \href{https://github.com/C13v2/Find-a-Player}{Source Code}}{TypeScript $|$ React $|$ Tailwind CSS}
-    \\[5mm]
-\resumeItemListStart
-    \resumeItem{Developed a modern \textbf{web application} that allows users to quickly create and join local sports matches for football, basketball, volleyball, padel, tennis, and more.}
-    \resumeItem{Built the frontend using \textbf{React}, \textbf{TypeScript}, \textbf{Tailwind CSS}, implementing features such as match creation, filtering, dashboards, and in-app chat}
-    \resumeItem{Enabled seamless coordination between players through automated participant management, push notifications (\textbf{Firebase Cloud Messaging}), and calendar integration, simplifying local sports organization}
-\resumeItemListEnd
-
 \resumeSubHeadingListEnd
 \vspace{-28pt}
 
 \medskip
 
 %-----------Spoken Languages-----------
+\vspace{17}
 \section{Spoken Languages}
 \hspace{1cm}Italian (Native)\hspace{1.5cm}English (C1)\hspace{1.5cm}French (B1)\hspace{1.5cm}German (A2)
 
 \end{document}
-
